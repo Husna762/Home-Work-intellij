@@ -7,7 +7,8 @@ public class Hw_Calculating {
 
     public int getTotalCost() {
         Scanner input = new Scanner(System.in);
-        System.out.println("let's use calculator");
+        System.out.println("****let's do calculating by user input***");
+        System.out.println("Star with summation");
         System.out.println("Enter first number");
         int num1 = input.nextInt();
 
@@ -54,10 +55,10 @@ public class Hw_Calculating {
         System.out.println("Are you ready fo to do division? :) ");
         String ab = sm.nextLine();
         System.out.println("Total costs of a basket of mangoes ");
-        int MPrice  = sm.nextInt();
+        int mangoPrice  = sm.nextInt();
         System.out.println("Numbers of mango in a basket ");
-        int MQuantity = sm.nextInt();
-        int costPerMango = MPrice/MQuantity;
+        int mangoQuantity = sm.nextInt();
+        int costPerMango = mangoPrice/mangoQuantity;
         System.out.println("Each mango price is $ " + costPerMango);
 
     }
