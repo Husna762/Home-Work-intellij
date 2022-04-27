@@ -17,7 +17,7 @@ public class Hw_EqualsIgnoreCase {
 
         } else {
 
-            System.out.println("Sorry you cannot go to the level 2");
+            System.out.println("Sorry you cannot go to the next level ");
         }
 
 
